@@ -967,7 +967,7 @@ header {
     transform: translate(-50%, 45%);
   }
   .model .arrow__line {
-    transform: translate(-50%, -30%);
+    transform: translate(-50%, -12%);
   }
   .model__desc {
     margin-bottom: 2.5rem;
@@ -1143,6 +1143,9 @@ header {
 .highlights__description, .highlights-description {
   font-weight: 400;
   color: #626F82;
+}
+.highlights-mains {
+  display: none;
 }
 @media screen and (max-width: 300px) {
   .highlights {

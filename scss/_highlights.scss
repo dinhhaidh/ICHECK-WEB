@@ -58,6 +58,9 @@
         font-weight: 400;
         color: $text;
     }
+    &-mains{
+        display: none;
+    }
 
     @media screen and (max-width: 300px) {
         padding-block: 3rem;
