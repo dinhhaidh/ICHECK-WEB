@@ -1,0 +1,165 @@
+.highlights {
+    &-content{
+        display: none;
+    }
+    &__title,
+    &-title{
+        font-weight: 600;
+        text-align: center;
+        font-size: clamp(1.5rem, 1.236842105263158rem + 1.3157894736842104vw, 2.5rem);
+        margin-bottom: 1.5rem;
+    }
+    &__images,
+    &-images{
+        display: none;
+    }
+    
+    &-cart{
+        box-shadow: 4px 0 0px $texte0, -4px 0 0px $texte0 !important;
+    }
+    &__card,
+    &-card{
+        box-shadow: 4px 0 0px #d6f0db, -4px 0 0px #d6f0db;
+        border-radius: 20px;
+    }
+    &__card-link,
+    &-card-link{
+        padding: 1rem;
+    }
+    &__icon,
+    &-icon{
+        display: flex;
+        align-items: center;
+        column-gap: 1rem;
+        margin-bottom: 1rem;
+    }
+    &__des,
+    &-des{
+        font-size: clamp(1.125rem, 1.0921052631578947rem + 0.1644736842105263vw, 1.25rem);
+        font-weight: 600;
+    }
+    &__green,
+    &-green{
+        color: $primary29;
+    }
+    &__list,
+    &-list{
+        padding: 0 0 0 1.75rem;
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.25rem;
+        li{
+            list-style-type: disc;
+            color: $text;
+        }
+    }
+    &__description,
+    &-description{
+        font-weight: 400;
+        color: $text;
+    }
+
+    @media screen and (max-width: 300px) {
+        padding-block: 3rem;
+        &__title{
+            margin-bottom: 1rem;
+        }
+        &__card-link{
+            padding: 1rem 0.75rem;
+        }
+    }
+    @media screen and (min-width: 400px) {
+        padding-block: 3.5rem 1rem;
+    }
+    @media screen and (min-width: 575px) {
+        &__content{
+            grid-template-columns: repeat(2, 1fr);
+            gap: 2.5rem;
+        }
+        &__title{
+            margin-bottom: 2.5rem;
+        }
+    }
+    @media screen and (min-width: 768px) {
+        &__content{
+            grid-template-columns: repeat(3, 1fr);
+        }
+    }
+    @media screen and (min-width: 992px) {
+        padding-block: 4.5rem 1rem;
+    }
+    @media screen and (min-width: 1024px) {
+        padding-block: 6rem 0;
+    }
+    @media screen and (min-width: 1150px){
+        &-images{
+            display: block;
+            width: 556px;
+            height: 480px;
+        }
+        &__content{
+            display: none;
+        }
+        &-content{
+            display: grid;
+            grid-template-columns: repeat(3,1fr);
+        }
+        &-mains{
+            display: flex;
+            column-gap: 5rem;
+            justify-content: center;
+            margin-top: 2rem;
+        }
+        &__system{
+            width: 271px;
+        }
+        &__manage{
+            width: 307px;
+        }
+        &__application{
+            width: 270px;
+        }
+        &-card{
+            height: 350px;
+        }
+        &__unique{
+            height: 278px;
+        }
+        &__integration{
+            height: 302px;
+        }
+        &__sell{
+            height: 243.85px;
+        }
+        &__body:nth-child(odd){
+            transform: translateY(-7rem);
+        }
+        &__body-card{
+            height: 299px;
+        }
+        &-cart{
+            width: 270px;
+        }
+        &-icon{
+            flex-direction: column;
+            row-gap: .5rem;
+            margin-bottom: 0.5rem;
+        }
+        &-green{
+            text-align: center;
+        }
+        &-list{
+            padding: 0 0.5rem 0 3.75rem;
+            row-gap: 0;
+        }
+        &-card-link {
+            padding: 1rem 1.6rem;
+        }
+        &-des{
+            text-align: center;
+        }
+        &__title{
+            margin-bottom: 4.5rem;
+        }
+    }
+}

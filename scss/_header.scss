@@ -1,0 +1,128 @@
+
+header{
+    position: relative;
+}
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: transparent;
+    z-index: 10;
+    &__bg{
+        background-image: url(../img/header.png);
+        background-position: center;
+        background-size: cover;
+        background-repeat: no-repeat;
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+        z-index: -1;
+    }
+    &__icons{
+        background: linear-gradient(to bottom, #1ED077, #06BC61);
+        padding: 10px;
+        display: inline-block;
+        border-radius: 6px;
+        margin-bottom: 1rem;
+        box-shadow: 0px 8px 10px rgb(193, 232, 200);
+        img{
+            width: 27.64px;
+            height: 40.69px;
+            object-fit: cover;
+        }
+    }
+    &__heading{
+        margin-bottom: 0.75rem;
+        font-weight: 600;
+        font-size: clamp(1.25rem, 1.0526315789473684rem + 0.9868421052631579vw, 2rem);
+    }
+    &__buttons{
+        display: flex;
+        flex-direction: column;
+        row-gap: 0.75rem;
+    }
+    &__button{
+
+    }
+    &__green{
+        background: $primary33;
+        color: #fff;
+        font-size: clamp(0.875rem, 0.8421052631578947rem + 0.1644736842105263vw, 1rem);
+        display: block;
+        padding: 10px;
+        border-radius: 4px;
+        font-weight: 600;
+    }
+    &__white{
+        color: $black;
+        border: 1px solid #33B44A;
+        padding: 10px;
+        display: block;
+        border-radius: 4px;
+        font-size: clamp(0.875rem, 0.8421052631578947rem + 0.1644736842105263vw, 1rem);
+        font-weight: 600;
+    }   
+    
+    @media screen and (min-width: 575px) {
+        &__container{
+            padding-block: 7rem 1rem;
+        }
+
+        &__buttons{
+            flex-direction: row;
+            column-gap: 1.25rem;
+        }
+    }
+
+    @media screen and (min-width: 768px) {
+        &__container{
+            padding-block: 3rem 1rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        &__images {
+            width: 450px;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        &__images{
+            width: 540px;
+        }
+        &__data{
+            width: 450px;
+        }
+    }
+
+    @media screen and (min-width: 1170px) {
+        &__container{
+            column-gap: 1.8rem;
+        }
+        &__images{
+            width: 671px;
+        }
+        &__data{
+            width: 469px;
+        }
+    }
+    
+    
+    
+    @media screen and (max-width: 300px) {
+        &__container{
+            padding-block: 5rem 1.4rem;
+        }
+        &__icons{
+            margin-bottom: 0.5rem;
+        }
+    }
+    
+    
+}
+.shadow-header{
+    box-shadow: 0 2px 16px hsla(220, 32%, 8%, .3);
+    background-color: #fff;
+}
