@@ -121,7 +121,7 @@ html {
     transform: rotate(90deg);
     bottom: 19rem;
     left: unset;
-    right: -9rem;
+    right: -8rem;
     border-radius: 0 0 20px 20px;
   }
   .contact__data {
@@ -132,6 +132,7 @@ html {
   }
   .contact__content {
     flex-direction: row;
+    padding: 0.75rem 0;
   }
   .contact__content a img {
     transform: rotate(-90deg);
