@@ -134,5 +134,11 @@
         &__container{
             margin-bottom: 3rem;
         }
+        &__actions{
+            column-gap: 7rem;
+        }
+        &__app{
+            padding-right: 2rem;
+        }
     }
 }

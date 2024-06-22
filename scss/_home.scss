@@ -179,18 +179,11 @@
         &__mains{
             width: 400px;
         }
-        .home__title br {
+        &__title br {
             display: block;
         }
     }
-    @media screen and (min-width: 1170px) {
-        &__mains{
-            width: 570px;
-        }
-        &__images{
-            width: 845px;
-        }
-    }
+ 
 
     @media screen and (min-width: 1350px) {
         &__images {
@@ -206,7 +199,11 @@
             width: 845px;
             transform: translateX(80px);
         }
+        &__mains{
+            width: 570px;
+        }
     }
+   
     @media screen and (min-width: 1450px) {
         &__images {
             width: 845px;

@@ -1,6 +1,8 @@
 .imprint {
     padding-block: 3rem 1rem;
-    position: relative;
+    &__container{
+        position: relative;
+    }
     &__content,
     &-content{
         display: flex;
@@ -157,21 +159,38 @@
     }
     @media screen and (min-width: 1024px) {
         padding-block: 7rem 5rem;
+        // &__images{
+        //     z-index: -1;
+        //     display: unset;
+
+        //     position: absolute;
+        //     top: 70.5%;
+        //     // top: 50%;
+        //     left: 49%;
+        //     transform: translate(-50%,-50%);
+        //     width: 1920px !important;
+        //     // img{
+        //     // }
+        // }
+        &__images {
+            display: none;
+        }
+    }
+    @media screen and (min-width: 1400px) {
+        padding-block: 7rem 5rem;
         &__images{
-            // position: absolute;
-            // top: 0;
-            // left: 0;
-            // right: 0;
-            // bottom: 0;
             z-index: -1;
             display: unset;
 
             position: absolute;
-            top: 50%;
-            left: 50%;
+            top: 70.5%;
+            // top: 50%;
+            left: 49%;
             transform: translate(-50%,-50%);
+            width: 1920px !important;
+            // img{
+            // }
         }
     }
-    
     
 }
