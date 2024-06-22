@@ -299,6 +299,7 @@ header {
   .header__container {
     -moz-column-gap: 1.8rem;
          column-gap: 1.8rem;
+    padding-block: 3rem 0;
   }
   .header__images {
     width: 671px;
