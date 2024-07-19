@@ -1,0 +1,277 @@
+.contact{
+    background-image: url(../img/highlights.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-bottom: 5rem;
+    position: relative;
+    &__title{
+        font-size: clamp(2rem, 1.5394736842105263rem + 2.302631578947368vw, 3.75rem);
+        font-weight: 600;
+        text-align: center;
+        margin: 2rem 0 1rem;
+    }
+    &__main{
+        padding: 1.5rem;
+        background-color: #fff;
+        box-shadow: 0px 0px 14px -7px hsl(217, 12%, 78%, 1)
+    }
+    &__data{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1.8rem;
+        margin-bottom: 1.5rem;
+    }
+    &__headquarters{
+        display: flex;
+        gap: 1rem;
+    }
+
+    &__icon{
+        padding: 0.625rem;
+        background: $primaryeb;
+        height: 44px;
+        border-radius: 4px;
+        &-1{
+            width: 39.5px;
+            height: 22px;
+        }
+        &-2{
+            width: 24px;
+            height: 24px;
+        }
+        &-3{
+            width: 22px;
+            height: 18.48px;
+        }
+    }
+    &__desc{
+        font-size: 18px;
+        font-weight: 600;
+        color: $black;
+    }
+    &__description{
+        font-size: 16px;
+        font-weight: 400;
+        color: $black3a;
+        font-family: $font-family ;
+    }
+    
+    &__directs,
+    &__direct{
+        text-decoration: underline;
+        color: $primary29;
+        font-weight: 600;
+        font-size: 16px;
+    }
+    &__directs{
+        display: none;
+    }
+    &__cart{
+        display: grid;
+        row-gap: 1.5rem;
+    }
+    &__input{
+        background: #F3F4F5;
+        width: 100%;
+        padding: 0.969rem 0 0.969rem 1.5rem;
+        &::placeholder{
+            color: $textc0;
+            font-weight: 400;
+        }
+    }
+   
+    &__phone{
+        color: $primary29;
+        font-weight: 400;
+        font-size: 16px;
+    }
+    &__form,
+    &__control{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    &__down{
+        color: $black !important;
+        top: 0.7rem;
+        font-size: 23px;
+    }
+    &__register{
+        width: 199px;
+        margin: 1rem auto 0;
+    }
+    &__button{
+        width: 100%;
+        margin-top: 1rem;
+    }
+    &__icons{
+        display: flex;
+        column-gap: 0.25rem;
+    }
+    &-icon{
+        color: #626f82;
+    }
+    &__buttons{
+        width: 100%;
+    }
+    &__locate{
+        padding: 0.625rem 0.917rem;
+    }
+    &__icons{
+        margin-top: 2rem;
+    }
+    &__number{
+        padding: 0.625rem 0.688rem;
+    }
+    &__subtract{
+        padding: 0.625rem 0.73004rem;
+    }
+    &__des{
+        letter-spacing: 0.2px;
+    }
+   &__bg{
+    
+   }
+
+    @media screen and (min-width: 475px) {
+        &__control{
+            display: grid !important;
+            grid-template-columns: repeat(2,1fr) !important;
+        }
+    }
+  
+    @media screen and (min-width: 650px) {
+        &__main{
+            padding: 2rem;
+        }
+        &__cart{
+            grid-template-columns: repeat(2, 1fr);
+            column-gap: 1.5rem;
+        }
+        &__control{
+            flex-direction: row;
+            column-gap: 1.5rem;
+        }
+        &__form{
+            row-gap: 1.5rem;
+        }
+        &__button{
+            margin: 1.5rem auto 0;
+            width: 199px;
+        }
+        &__direct{
+            display: none;
+        }
+        &__directs{
+            display: block;
+        }
+        &__description{
+            & br{
+                display: none;
+            }
+        }
+        &__desc{
+            margin-bottom: 0.25rem;
+        }
+        &__icon-1 {
+            width: 50.7px;
+            height: 22px;
+        }
+       
+        
+    }
+
+    @media screen and (min-width: 820px) {
+        &__icon-1 {
+            width: 43.9px;
+            height: 22px;
+        }
+        &__main{
+            padding: 2.5rem;
+        }
+        &__title{
+            margin-bottom: 2rem;
+        }
+    }
+    @media screen and (min-width: 920px) {
+        &__icon-1 {
+            width: 40.7px;
+            height: 22px;
+        }
+    }
+    @media screen and (min-width: 1024px) {
+
+        &__icon-1 {
+            width: 37px;
+            height: 22px;
+        }
+
+    }
+    @media screen and (min-width: 1070px) {
+        &__icon-1 {
+            width: 34.5px;
+            height: 22px;
+        }
+    }
+    @media screen and (min-width: 1150px) {
+        padding-bottom: 5.63rem;
+        padding-top: 1rem;
+        ::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            
+            background-image: url(../img/highlights.png);
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+          }
+        &__icon-1 {
+            width: 32.02px;
+            height: 22px;
+        }
+        &__title{
+            margin-bottom: 2.5rem;
+        }
+        &__title{
+            margin-top: 9px;
+            letter-spacing: -1px;
+        }
+        &__main{
+            padding: 3.2rem 3.1rem 3.1rem 3.2rem;
+        }
+       
+        &__data{
+            margin-bottom: 0;
+        }
+        &__input{
+            padding: 1.1rem 0 1.1rem 1.5rem;
+            letter-spacing: 1px;
+        }
+        &__control,
+        &__cart{
+            column-gap: 1.8rem;
+        }
+        &__headquarters {
+            gap: 0.85rem;
+            width: 520px;
+        }
+        &__form {
+            row-gap: 1.8rem;
+            transform: translateY(7px);
+        }
+        &__register{
+            height: 60px;
+            margin: 0.8rem auto 0;
+        }
+        &__desc{
+            margin-bottom: 0;
+        }
+    }
+
+}

@@ -1,0 +1,882 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICHECK-WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!--=============== fonts ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <!--=============== Jquery ===============-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header>
+        <div class="header" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./img/Isolation_Mode.svg" alt="" class="nav-logo">
+                </a>
+
+                <!-- =========== NAV MENU   ============= -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Trang chủ</a></li>
+
+                        <li class="nav__item"><a href="bang-gia.html" class="nav__link">Bảng giá</a></li>
+
+                        <!-- ========= DROPDOWN 1 ========== -->
+                        <li class="dropdown__item ">
+                            <!-- <a href="giai-phap.html" class="nav__link"> -->
+                            <a href="" class="nav__link">
+                                Giải pháp ngành<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                                
+                            </a>
+
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        </i> Ngành Dược phẩm
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật tư nông nghiệp
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị điện
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị gia dụng
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật liệu xây dựng
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="tin-tuc.html" class="nav__link ">Tin tức</a></li>
+
+                        <li class="nav__item"><a href="ho-tro.html" class="nav__link">Hỗ trợ</a></li>
+
+                        <li class="nav__item"><a href="lien-he.html" class="nav__link">Liên hệ</a></li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__login">
+                    <div class="nav__actions">
+                        <img src="./img/VN.svg" alt="image" class="nav__img">
+                            VIE
+                        <i class="ri-arrow-down-s-fill  dropdown__arrow"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-3-line nav__burge"></i>
+                    </div>
+
+                    <button class="nav__button button">
+                        ĐĂNG KÝ DÙNG THỬ
+                    </button>
+                        
+                </div>
+
+            </nav>
+        </div>
+
+        <div class="header-container container section">
+            <div class="header-main">
+                <h1 class="title">Giải Pháp <br>Quản Lý Hệ Thống <br> Phân Phối</h1>
+                <h3 class="header__heading header-heading-line">Ngành Dược Phẩm - Hóa Mỹ Phẩm</h3>
+
+                <button class="header__green header-green">ĐĂNG KÝ NGAY</button>
+            </div>
+            <div class="header-image" data-sr-id="5">
+                <img src="./img/header-img.png" alt="image" class="heder-img">
+            </div>
+        </div>
+        
+        <div class="header__bg"></div>
+       
+    </header>
+    
+    <main class="main">
+         <!-- ============ HOME ============ -->
+        <section class="home section solution">
+            <div class="home-container container">
+                <h3 class="home__title home-title">
+                    Giải Pháp iCheck DMS Plus Cho Ngành Dược Phẩm
+                </h3>
+
+                <div class="home-data grid ">
+                    <div class="skills__main">
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+                                <div class="skills__contents">
+                                    <h1 class="skills__title">
+                                        01
+                                    </h1>
+                                    <span class="skills__subtitle">
+                                        Phần mềm DMS là gì?
+                                    </span>
+                                </div>
+        
+                                <i class="ri-arrow-down-s-line skills__arrow"></i>
+                            </div>
+        
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <h3 class="skills__name">
+                                        DMS (Distribution Management System) là phần mềm chuyên biệt  giúp quản lý hoạt động phân phối hàng hóa ra thị trường thông qua đội ngũ Sales thị trường. Toàn bộ các diễn biến trên kênh phân phối như hoạt động của nhân viên bán hàng, kiểm soát tồn kho ngoài thị trường, độ phủ, công nợ… đều được ghi nhận trên DMS.
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+                        
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+        
+                                <div class="skills__contents">
+                                    <h1 class="skills__title">
+                                        02
+                                    </h1>
+                                    <span class="skills__subtitle">
+                                        Phần mềm DMS phù hợp với doanh nghiệp nào?
+                                    </span>
+                                </div>
+        
+                                <i class="ri-arrow-down-s-line skills__arrow"></i>
+                            </div>
+        
+                            <div class="skills__list grid">
+                                <div class="skills__data">
+                                    <h3 class="skills__name">
+                                        MobiWork DMS phù hợp với các doanh nghiệp sản xuất & phân phối, có hoạt động phân phối hàng hóa ra thị trường thông qua đội ngũ Trình Dược Viên
+                                    </h3>
+                                </div>
+                                
+                            </div>
+                        </div>
+        
+                        <div class="skills__content skills__open">
+                            <div class="skills__header">
+        
+                                <div class="skills__contents">
+                                    <h1 class="skills__title">
+                                        03
+                                    </h1>
+                                    <span class="skills__subtitle">
+                                        Đối tượng sử dụng phần mềm là gì?
+                                    </span>
+                                </div>
+        
+                                <i class="ri-arrow-down-s-line skills__arrow"></i>
+                            </div>
+        
+                            <div class="skills__list grid">
+                                <ul class="skills__list-data">
+                                    <li class="skills__name">
+                                        Trình Dược Viên hay Nhân viên bán hàng ngoài thị trường. Đây là nhân sự chính sử dụng MobiWork DMS 
+                                    </li >
+                                    
+                                    <li  class="skills__name">
+                                        Giám sát, quản lý vùng như SS, ASM, RSM, NSM (nếu có) Cấp quản lý như lãnh đạo, kế toán, HR.... 
+                                    </li>
+                                    <li  class="skills__name">
+                                        Chủ nhà thuốc: Nếu sử dụng thêm gói Retail thì chủ nhà thuốc cũng tham gia vào hệ thống và chủ động đặt hàng
+                                    </li>
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <form action="" class="home-form">
+                        <h4 class="home-signing">
+                            Đăng Ký Trải Nghiệm Ngay
+                        </h4>
+                        <div class="home-forms">
+                            <input type="text" class="home-input" placeholder="Họ và tên">
+                            <button class="home-button">
+                                <input type="text" class="home-input" placeholder="Họ và tên">
+                                <i class="ri-arrow-down-s-fill home-down"></i>
+                            </button>
+                            <div class="home-control">
+                                <input type="email" class="home-input"  placeholder="Email">
+                                <input type="email" class="home-input"  placeholder="Số điện thoại">
+                            </div>
+
+                            <input type="text" class="home-input" placeholder="Công ty">
+                            <button class="home-button">
+                                <input type="text" class="home-input" placeholder="Gói dịch vụ">
+                                <i class="ri-arrow-down-s-fill home-down"></i>
+                            </button>
+                            <button class="header__green home-green">ĐĂNG KÝ NGAY</button>
+                        </div>
+                    </form>
+                    
+                </div>
+
+                
+
+
+            </div>
+        </section>
+
+        <!-- ============ MODEL ============ -->
+         <section class="model section operate">
+            <div class="model__container container">
+                <h2 class="model_title model__heading">
+                    Mô Hình Vận Hành Hệ Thống Phân Phối <br>Ngành Dược Phẩm - Hóa Mỹ Phẩm
+                </h2>
+
+                <div class="model__images">
+                    <img src="./img/model-img.png" alt="" class="model__img">
+                    <img src="./img/model-img-1.png" alt="" class="model__imag">
+                </div>
+
+                <div class="model__mains grid">
+                    <div class="model__cart model__black">
+                        <div class="model__card">
+                            <div class="model__spans">
+                                01
+                            </div>
+                            <h5 class="model__desc-line ">
+                                Tính năng đặt hàng dành cho Trình Dược Viên
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Sắp xếp và phân bổ tuyến bán hàng thông minh theo tần suất, thứ - ngày - tháng
+                            </li>
+                            <li>
+                                Giám sát vị trí - thời gian - lộ trình di chuyển trên bản đồ GPS
+                            </li>
+                            <li>
+                                Quản lý và cập nhật real time KPIs
+                            </li>
+                            <li>
+                                Hỗ trợ nhân viên trong quá trình đi thị trường
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="model__cart model__black-line">
+                        <div class="model__card">
+                            <div class="model__spans">
+                                02
+                            </div>
+                            <h5 class="model__desc-line">
+                                Quản lý chương trình Trade Marketing
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Thiết lập chương trình khuyến mãi, trả thưởng, trưng bày
+                            </li>
+                            <li>
+                                Tự động đẩy về ứng dụng của Sales (DMS) và chủ điểm bán (Retail)
+                            </li>
+                            <li>
+                                Theo dõi bảng hiệu, ốp mặt tiền, kệ trưng bày của các đại lý, điểm bán
+                            </li>
+                            <li>
+                                Theo dõi hiệu quả các chương trình khuyến mãi, tích lũy, trả thưởng
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="model__cart model__black">
+                        <div class="model__card">
+                            <div class="model__spans">
+                                03
+                            </div>
+                            <h5 class="model__desc-line">
+                                Tính năng đặt hàng dành cho Trình Dược Viên
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Lên đơn hàng trên di động khi ghé thăm điểm bán
+                            </li>
+                            <li>
+                                Quản lý danh sách, trạng thái đơn hàng
+                            </li>
+                            <li>
+                                Tự động áp dụng khuyến mãi với đơn hàng đủ điều kiện
+                            </li>
+                            <li>
+                                Báo cáo bán hàng & thực hiện KPIs dành cho từng Sales
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="model__cart model__black-line">
+                        <div  class="model__card">
+                            <div class="model__spans">
+                                04
+                            </div>
+                            <h5 class="model__desc-line mt-7">
+                                Quản lý khách hàng: Đại lý, nhà thuốc, hiệu thuốc
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Quản lý đơn đặt hàng trực tiếp của khách hàng
+                            </li>
+                            <li>
+                                Quản lý danh sách điểm bán trên bản đồ
+                            </li>
+                            <li>
+                                Theo dõi đầy đủ thông tin, lịch sử mua hàng
+                            </li>
+                            <li>
+                                Theo dõi độ bao phủ điểm bán qua bản đồ nhiệt
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="model__cart model__black">
+                        <div class="model__card">
+                            <div class="model__spans">
+                                05
+                            </div>
+                            <h5 class="model__desc-line mt-7">
+                                Tính năng đặt hàng dành cho Nhà thuốc/Đại lý
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Chỉ áp dụng khi sử dụng thêm gói Retail cho chủ điểm bán
+                            </li>
+                            <li>
+                                Chủ điểm bán đặt hàng trực tiếp trên di động mọi lúc - mọi nơi 
+                            </li>
+                            <li>
+                                Quản lý danh sách - tình trạng đơn hàng
+                            </li>
+                            <li>
+                                Theo dõi thông tin sản phẩm, khuyến mãi...
+                            </li>
+                        </ul>
+                    </div>
+                    
+                    <div class="model__cart model__black-line">
+                        <div class="model__card">
+                            <div class="model__spans">
+                                06
+                            </div>
+                            <h5 class="model__desc-line mt-7">
+                                Quản lý Sell in Nhà phân phối (mô hình 3 cấp)
+                            </h5>
+                        </div>
+                        <ul class="model__cart-link">
+                            <li>
+                                Quản lý mua hàng Nhà phân phối
+                            </li>
+                            <li>
+                                Quản lý kho hàng Nhà phân phối
+                            </li>
+                            <li>
+                                Quản lý các chương trình trả thưởng
+                            </li>
+                            <li>
+                                Hệ thống báo cáo bán hàng
+                            </li>
+                        </ul>
+                    </div>
+                    
+
+                </div>
+            </div>
+         </section>
+
+          <!-- ============ HIGHLIGHTS ============ -->
+         <section class="highlights section">
+            <div class="highlights-container container">
+                <h2 class="highlights__title highlights__heading">
+                    <span class="highlights__span">Số Hóa Quy Trình </span> <br>Quản Lý Phân Phối Ngành Dược Phẩm
+                </h2>
+                <p class="highlights-description highlights-description">
+                    MobiWork DMS mang đến sự thay đổi cho từng thành phần trên hệ thống phân phối, giúp kết dính Nhà sản xuất - Nhà phân phối và từng điểm bán lẻ. 
+                </p>
+
+                <div class="highlights-main grid">
+                    <div class="highlights__cart">
+                        <img srcset="./img/highlights-1.png 2x" alt="" class="highlights-img-1">
+                        <div class="highlights__mains">
+                            <div class="model-span highlights-des mt-1">
+                                Doanh Nghiệp Dược
+                            </div>
+                            <div class="highlights-desc">
+                                Quản lý toàn bộ hoạt động phân phối hàng hóa ra thị trường và công việc của nhân viên.
+                            </div>
+
+                        </div>
+                    </div>
+
+                    <div class="highlights__cart">
+                        <img srcset="./img/highlights-2.png 2x" alt="" class="highlights-img-2">
+                        <div class="highlights_mains">
+                            <div class="model-span highlights-des">
+                                Trình Dược Viên
+                            </div>
+                            <div class="highlights-desc">
+                                Hỗ trợ quá trình đi thị trường, chăm sóc điểm bán và mở rộng độ bao phủ - thị phần
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="highlights__cart">
+                        <img srcset="./img/highlights-3.png 2x" alt="" class="highlights-img-3">
+                        <div class="highlights__mains">
+                            <div class="model-span highlights-des">
+                                Chủ Nhà thuốc
+                            </div>
+                            <div class="highlights-desc">
+                                Trực tiếp kết nối với nhà cung ứng để đặt hàng và tham gia chương trình khuyến mãi
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <!-- ============ FEATURE ============ -->
+         <section class="feature section estate">
+            <div class="feature__container container">
+                <div class="feature__main">
+                    <div class="feature__image">
+                        <img src="./img/feature-1.png" alt="">
+                    </div>
+
+                    <div class="feature__contents">
+                        <div class="feature__heading feature-heading">
+                            Nhà sản xuất & Nhà phân phối
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Tối ưu hiệu quả đội ngũ Sales phân phối
+                                </h5>
+                                <p class="feature__span m-t-4">
+                                    Kiểm soát hoạt động đi tuyến trên bản đồ GPS, giúp nâng cao khả năng đi tuyến, bán hàng và mở mới điểm bán của đội Sales
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Kiểm soát & Mở rộng thị phần, độ phủ
+                                </h5>
+                                <p class="feature__span">
+                                    Cung cấp báo cáo trực quan dạng bản đồ nhiệt về mức độ bao phủ điểm bán trên thị trường, khả năng phủ hàng hóa trên từng khu vực
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des mt-2">
+                                    Quản lý hoạt động bán hàng
+                                </h5>
+                                <p class="feature__span">
+                                    Theo dõi doanh thu, doanh số, đơn hàng được đội ngũ Sales gửi về (app dms) hay do chủ điểm bán đặt hàng trực tiếp (app Retail)
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Quản lý trưng bày - khuyến mãi - khảo sát thị trường
+                                </h5>
+                                <p class="feature__span">
+                                    Thực hiện các chương trình khảo sát điểm bán, khảo sát mặt tiền để thực hiện chương trình trưng bày, gắn bảng biển quảng cáo...
+                                </p>
+                            </div>
+                        </div>
+                        <button class="header__green feature-button feature__button-link">ĐĂNG KÝ NGAY</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+          <!-- ============ application ============ -->
+         <section class="application section estate">
+            <div class="application__container container">
+                <div class="feature__program">
+                    <div class="feature__image feature__image-1">
+                        <img src="./img/feature-1.png" alt="">
+                    </div>
+
+                    <div class="feature__contents">
+                        <div class="feature__heading feature-heading">
+                            Trình Dược Viên thị trường
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Nâng cao hiệu quả đi tuyến bán hàng
+                                </h5>
+                                <p class="feature__span">
+                                    x2, x3 số lượng điểm bán, đại lý được chăm sóc trong ngày theo quy trình chuẩn của doanh nghiệp: kiểm tồn, chụp ảnh, lên đơn hàng....
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Dễ dàng tra cứu mọi thông tin trên di động
+                                </h5>
+                                <p class="feature__span m-t-1">
+                                    Thông tin về sản phẩm, chương trình khuyến mãi, tuyến bán hàng hay báo cáo Lịch sử mua hàng -bán hàng - công nợ điểm bán...
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Mở mới điểm bán trên tuyến
+                                </h5>
+                                <p class="feature__span m-t-2">
+                                    Tăng cường độ phủ của doanh nghiệp tại địa phương thông qua hoạt động mở mới. Toàn bộ thông tin được cập nhật trên di động.
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Chủ động kiểm soát công việc, kế hoạch
+                                </h5>
+                                <p class="feature__span">
+                                    Theo dõi hiệu quả làm việc với hệ thống báo cáo kết quả đi tuyến, kết quả viếng thăm, Báo cáo bán hàng, Báo cáo KPIs.....
+                                </p>
+                            </div>
+                        </div>
+                        <button class="header__green feature__button application__button">ĐĂNG KÝ NGAY</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+         <section class="application section market">
+            <div class="application__container container">
+                <div class="feature__main">
+                    <div class="feature__image">
+                        <img src="./img/feature-1.png" alt="">
+                    </div>
+
+                    <div class="feature__contents">
+                        <div class="feature__heading feature-heading application-heading">
+                            Đại lý/Cửa hàng/Tạp hóa...
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Đặt hàng trực tiếp với Nhà cung cấp
+                                </h5>
+                                <p class="feature__span">
+                                    Tìm kiếm & đặt hàng trực tiếp với các nhà cung cấp. Có thể lựa chọn khoảng thời gian giao hàng
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Tham gia các chương trình Trade Marketing
+                                </h5>
+                                <p class="feature__span m-t-1">
+                                    Xem chi tiết các chương trình khuyến mãi mà doanh nghiệp đang áp dụng để chủ động khi nhập hàng
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Thông tin chi tiết về sản phẩm doanh nghiệp
+                                </h5>
+                                <p class="feature__span m-t-1">
+                                    Theo dõi chi tiết danh sách sản phẩm của các nhà cung cấp như: thông tin hàng, hình ảnh, bảng giá, sản phẩm mới...
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="feature__price">
+                            <img src="./img/checked.svg" alt="">
+                            <div class="feature__subtitle">
+                                <h5 class="feature__des">
+                                    Trao đổi trên đơn hàng
+                                </h5>
+                                <p class="feature__span m-t-1">
+                                    Phản hồi ý kiến trực tiếp với nhà cung cấp về các vấn đề phát sinh trên từng đơn hàng
+                                </p>
+                            </div>
+                        </div>
+                        <button class="header__green feature__button application__button">ĐĂNG KÝ NGAY</button>
+                    </div>
+                </div>
+            </div>
+         </section>
+
+           <!-- ============ excellent ============ -->
+         <section class="excellent section">
+            <div class="excellent__container excellent-container container">
+               
+
+                <div class="excellent__advise">
+                    <div class="excellent__data">
+                        <h2 class="home__title excellent__title">
+                            Ưu Đãi Đặc Biệt Khi <br>
+                            Hợp Tác Với iCheck
+                        </h2>
+                        <div class="excellent__main">
+                            <div class="excellent__icons">
+                                <img src="./img/excellent-1.svg" alt="">
+                            </div>
+    
+                            <div class="excellent__content">
+                                <h5 class="excellent__desc">
+                                    Miễn phí thiết kế tem theo yêu cầu
+                                </h5>
+                                <p class="excellent__description">
+                                    Tư vấn - thiết kế tem miễn phí cho doanh nghiệp
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="excellent__main">
+                            <div class="excellent__icons">
+                                <img src="./img/dola.svg" alt="">
+                            </div>
+                            <div class="excellent__content">
+                                <h5 class="excellent__desc excellent__compete">
+                                    Chi phí cạnh tranh
+                                </h5>
+                                <p class="excellent__description">
+                                    Nhiều gói dịch vụ phù hợp với nhu cầu của doanh nghiệp
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <form action="" class="excellent__form">
+                        <input type="text" class="excellent__input" placeholder="Họ và tên">
+                        <button class="excellent__button">
+                            <input type="text" class="excellent__input" placeholder="Chức danh">
+                            <i class="ri-arrow-down-s-fill excellent__down"></i>
+                        </button>
+                        <div class="excellent__control">
+                            <input type="email" class="excellent__input" placeholder="Email">
+                            <input type="email" class="excellent__input" placeholder="Số điện thoại">
+                        </div>
+    
+                        <input type="text" class="excellent__input" placeholder="Công ty">
+                        <button class="excellent__button">
+                            <input type="text" class="excellent__input" placeholder="Gói dịch vụ">
+                            <i class="ri-arrow-down-s-fill excellent__down"></i>
+                        </button>
+                        <button class="excellent__buttons">ĐĂNG KÝ NGAY</button>
+                    </form>
+                </div>
+
+            </div>
+         </section>
+
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="./img/footer-logo.png" alt="image">
+                </div>
+                <div class="footer__actions">
+                    <div class="footer__connect">
+                        <p class="footer__desc">
+                            Kết nối với chúng tôi
+                        </p>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com" class="footer__social-link">
+                                <img src="./img/facebook.svg" alt="">
+                            </a>
+                            <a href="https://www.play.com" class="footer__social-link">
+                                <img src="./img/play_circle_filled.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com" class="footer__social-link">
+                                <img src="./img/in.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__application">
+                        <p class="footer__desc footer__application">
+                            Tải ứng dụng DMS+
+                        </p>
+                        <div class="footer__app">
+                            <a href="https://www.Appstore.com" class="footer__appstore">
+                                <img src="./img/Appstore.svg" alt="">
+                            </a>
+                            <a href="https://play.Google.com" class="footer__google">
+                                <img src="./img/Google play.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__data grid">
+                <div>
+                    <h3 class="footer__title">CÔNG TY</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Văn hóa công ty</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Báo chí nói về iCheck</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Liên hệ</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">GIẢI PHÁP NGÀNH</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Ngành Dược phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Vật tư nông nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Thiết bị điện</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Ngành Thiết bị gia dụng</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Ngành Vật liệu xây dựng</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">DỊCH VỤ</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ tư vấn Doanh nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ in tem nhãn</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">LIÊN KẾT</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Chính sách chung</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách cung cấp dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách bảo mật thông tin</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Chính sách đại lý</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__copyright footer-copyright">
+                <div class="footer__copy">
+                    Copyright © 2022 icheck.com.vn <br>
+                    Hệ sinh thái ứng dụng Barcode & QR Code
+                </div>
+
+                <div class="footer__action">
+                    <img src="./img/registered.svg" alt="" class="footer__register">
+                    <img src="./img/DMCA.svg" alt="" class="footer__DMCA">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup show-scroll" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!-- ================ Swiper ==================== -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- ================ scrollreveal ==================== -->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!-- ================ jquery ==================== -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+    <script>
+        $( function() {
+          $( "#accordion-solution" ).accordion();
+        } );
+        </script>
+</body>
+</html>

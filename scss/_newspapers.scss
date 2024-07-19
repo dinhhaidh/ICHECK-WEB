@@ -1,0 +1,90 @@
+.newspapers {
+    padding-block: 5rem 4rem;
+    &__title{
+        margin-bottom: 1.5rem;
+    }
+    &__content{
+        display: grid;
+        grid-template-columns: repeat(auto-fit, minmax(50px, 1fr));
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+        justify-content: center;
+        img{
+            width: 100%;
+            object-fit: cover;
+        }
+    }
+    &__main{
+        display: grid;
+        gap: 2rem;
+    }
+    &__cart{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+
+    }
+    &__description{
+        font-weight: 600;
+        font-size: clamp(1rem, 0.9671052631578947rem + 0.1644736842105263vw, 1.125rem);
+        padding: 0 0.75rem;
+    }
+
+    @media screen and (max-width: 300px) {
+        padding-block: 4rem 4rem;
+        
+    }
+    @media screen and (max-width: 400px) {
+        padding-block: 5.2rem 4rem;
+        &__container{
+            width: 342px;
+            margin: 0 auto;
+        }
+        &__title{
+            letter-spacing: -0.3px;
+        }
+        &__description {
+            padding: 0 0 0 1rem;
+            letter-spacing: -0.1px;
+        }
+
+        &__main{
+            gap: 2.35rem;
+        }
+        &__agricultural{
+            letter-spacing: -0.08px;
+            padding: 0 39px 0 1rem;
+        }
+        &__revenue{
+           margin-top: 4px;
+        }
+    }
+    @media screen and (min-width: 400px) {
+        padding-block: 5rem 4rem;
+    }
+    @media screen and (min-width: 460px) {
+        &__main{
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+    @media screen and (min-width: 768px) {
+        padding-block: 5rem 5rem;
+        &__main{
+            grid-template-columns: repeat(3, 1fr);
+        }
+        &__content{
+            grid-template-columns: repeat(5, max-content);
+            img{
+                width: 130px;
+
+            }
+        }
+    }
+    @media screen and (min-width: 1024px) {
+        padding-block: 5rem 7rem;
+        &__content{
+            margin-bottom: 2.5rem;
+        }
+    }
+    
+}

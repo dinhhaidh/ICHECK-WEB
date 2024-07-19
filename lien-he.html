@@ -1,0 +1,403 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICHECK-WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!--=============== fonts ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <!--=============== Jquery ===============-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    
+    <!--=============== Swiper css ===============-->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+    
+
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header>
+        <div class="header header__brick" id="header">
+            <nav class="nav container ">
+                <a href="index.html" class="nav__logo">
+                    <img src="./img/Isolation_Mode.svg" alt="" class="nav-logo">
+                </a>
+
+                <!-- =========== NAV MENU   ============= -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Trang chủ</a></li>
+
+                        <li class="nav__item"><a href="bang-gia.html" class="nav__link">Bảng giá</a></li>
+
+                        <!-- ========= DROPDOWN 1 ========== -->
+                        <li class="dropdown__item ">
+                            <!-- <a href="giai-phap.html" class="nav__link"> -->
+                            <a href="" class="nav__link">
+                                Giải pháp ngành<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                                
+                            </a>
+
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        </i> Ngành Dược phẩm
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật tư nông nghiệp
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị điện
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị gia dụng
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật liệu xây dựng
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="tin-tuc.html" class="nav__link ">Tin tức</a></li>
+
+                        <li class="nav__item"><a href="ho-tro.html" class="nav__link">Hỗ trợ</a></li>
+
+                        <li class="nav__item"><a href="lien-he.html" class="nav__link">Liên hệ</a></li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__login">
+                    <div class="nav__actions">
+                        <img src="./img/VN.svg" alt="image" class="nav__img">
+                            VIE
+                        <i class="ri-arrow-down-s-fill  dropdown__arrow"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-3-line nav__burge"></i>
+                    </div>
+
+                    <button class="nav__button button">
+                        ĐĂNG KÝ DÙNG THỬ
+                    </button>
+                </div>
+
+            </nav>
+        </div>
+
+    </header>
+    
+    <main class="main">
+        <!--=============== HOME ===============-->
+        <div class="contact__icons container support__icon">
+            <img src="./img/home.svg" alt="">
+            <i class="ri-arrow-right-s-line contact-icon"></i>
+
+            <span class="contact__descs">Liên hệ</span>
+        </div>
+
+        <!--=============== support ===============-->
+        <section class="contact">
+            <div class="contact__container container">
+                <h1 class="contact__title">
+                    Liên hệ
+                </h1>
+    
+                <div class="contact__main grid">
+                    <div class="contact__data">
+                        <div class="contact__cart">
+                            <div class="contact__headquarters">
+                                <div class="contact__icon contact__locate">
+                                    <img src="./img/Subtract.svg" alt="" class="contact__icon-1 ">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Trụ sở Hà Nội
+                                    </h5>
+                                    <p class="contact__description">
+                                        Tầng 12 Tòa nhà Diamond Flower, số 48 Lê Văn Lương, Khu đô thị mới N1, phường Nhân Chính, quận Thanh Xuân, Hà Nội &nbsp;<br>
+                                        <a href="#" class="contact-direct support__green">Chỉ đường</a>
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact__headquarters">
+                                <div class="contact__icon contact__subtract">
+                                    <img src="./img/Subtract.svg" alt="" class="contact__icon-1">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Trụ sở Hồ Chí Minh
+                                    </h5>
+                                    <p class="contact__description">
+                                        Số 8 đường số 20, Khu Dân cư Him Lam, phường Tân Hưng, Quận 7, TP. Hồ Chí Minh &nbsp;<br>
+                                        <a href="#" class="contact-direct support__green">Chỉ đường</a>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__cart">
+                            <div class="contact__headquarters">
+                                <div class="contact__icon">
+                                    <img src="./img/phone.svg" alt="" class="contact__icon-2">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Hotline Hà Nội
+                                    </h5>
+                                    <p class="contact__phone">
+                                        0902 195 488
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact__headquarters">
+                                <div class="contact__icon">
+                                    <img src="./img/phone.svg" alt="" class="contact__icon-2">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Hotline Hồ Chí Minh
+                                    </h5>
+                                    <p class="contact__phone">
+                                        0974 195 488
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="contact__cart">
+                            <div class="contact__headquarters">
+                                <div class="contact__icon">
+                                    <img src="./img/email.svg" alt="" class="contact__icon-3">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Email
+                                    </h5>
+                                    <p class="contact__description contact__des">
+                                        cskh@icheck.com.vn
+                                    </p>
+                                </div>
+                            </div>
+                            <div class="contact__headquarters">
+                                <div class="contact__icon contact__number">
+                                    <img src="./img/tax.svg" alt="" class="contact__icon-3">
+                                </div>
+                                <div class="contact__content">
+                                    <h5 class="contact__desc">
+                                        Mã số thuế
+                                    </h5>
+                                    <p class="contact__description">
+                                        0106875900
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+
+                    <form class="contact__form">
+                        <div class="contact__control">
+                            <input type="text" class="home-input contact__input" placeholder="Họ và tên">
+                            <button class="home-button contact__buttons">
+                                <input type="text" class="home-input  contact__input" placeholder="Chức danh">
+                                <i class="ri-arrow-down-s-fill home-down contact__down"></i>
+                            </button>
+                        </div>
+
+                        <div class="contact__control">
+                            <input type="email" class="home-input contact__input" placeholder="Email">
+                            <input type="email" class="home-input contact__input" placeholder="Số điện thoại">
+                        </div>
+
+                        <div class="contact__control">
+                            <input type="text" class="home-input contact__input" placeholder="Công ty">
+                            <button class="home-button contact__buttons">
+                                <input type="text" class="home-input contact__input" placeholder="Gói dịch vụ">
+                                <i class="ri-arrow-down-s-fill home-down contact__down"></i>
+                            </button>
+                        </div>
+                    </form>
+                    <button class="header__green home-green contact__register">ĐĂNG KÝ NGAY</button>
+                </div>
+            </div>
+
+        </div>
+
+        
+    </main>
+    
+    <footer class="footer section">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="./img/footer-logo.png" alt="image">
+                </div>
+                <div class="footer__actions">
+                    <div class="footer__connect">
+                        <p class="footer__desc">
+                            Kết nối với chúng tôi
+                        </p>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com" class="footer__social-link">
+                                <img src="./img/facebook.svg" alt="">
+                            </a>
+                            <a href="https://www.play.com" class="footer__social-link">
+                                <img src="./img/play_circle_filled.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com" class="footer__social-link">
+                                <img src="./img/in.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__application">
+                        <p class="footer__desc">
+                            Tải ứng dụng DMS+
+                        </p>
+                        <div class="footer__app">
+                            <a href="https://www.Appstore.com" class="footer__appstore">
+                                <img src="./img/Appstore.svg" alt="">
+                            </a>
+                            <a href="https://play.Google.com" class="footer__google">
+                                <img src="./img/Google play.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__data grid">
+                <div>
+                    <h3 class="footer__title">CÔNG TY</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Văn hóa công ty</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Báo chí nói về iCheck</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Liên hệ</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">GIẢI PHÁP NGÀNH</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Ngành Dược phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Vật tư nông nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Thiết bị điện</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Ngành Thiết bị gia dụng</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Ngành Vật liệu xây dựng</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">DỊCH VỤ</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ tư vấn Doanh nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ in tem nhãn</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">LIÊN KẾT</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Chính sách chung</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách cung cấp dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách bảo mật thông tin</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Chính sách đại lý</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__copyright footer-copyright">
+                <div class="footer__copy">
+                    Copyright © 2022 icheck.com.vn <br>
+                    Hệ sinh thái ứng dụng Barcode & QR Code
+                </div>
+
+                <div class="footer__action">
+                    <img src="./img/registered.svg" alt="" class="footer__register">
+                    <img src="./img/DMCA.svg" alt="" class="footer__DMCA">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup show-scroll" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!-- ================ Swiper ==================== -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- ================ scrollreveal ==================== -->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!-- ================ jquery ==================== -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+    <script>
+        $( function() {
+            $( "#tabs" ).tabs();
+        } );
+    </script>
+</body>
+</html>

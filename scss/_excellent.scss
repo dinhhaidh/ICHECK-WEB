@@ -1,0 +1,193 @@
+.excellent{
+    background-image: url(../img/excellent.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-block: 4rem;
+    &__data{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+        margin-bottom: 2rem;
+    }
+   
+    &__main{
+        display: flex;
+        column-gap: 0.5rem;
+    }
+    &__icons{
+        padding: 0.97rem 0.69rem;
+        border-radius: 4px;
+        height: 50px;
+        background: $primary77;
+        &img:first-child{
+            width: 28px;
+            height: 18.05px;
+        }
+        &img:nth-child(2){
+            width: 24px;
+            height: 24px;
+        }
+    }
+    &__desc{
+        color: $yellow;
+        font-weight: 600;
+        font-size: 1rem;
+        font-size: clamp(1rem, 0.9342105263157895rem + 0.3289473684210526vw, 1.25rem);
+        margin-bottom: 0.25rem;
+        font-family: "Allerta", sans-serif;
+    }
+    &__description{
+        font-weight: 400;
+        font-size: clamp(0.875rem, 0.8421052631578947rem + 0.1644736842105263vw, 1rem);
+        color: rgba(hsl(0, 0%, 100%), 0.8);
+    }
+    &__input{
+        border-radius: 4px;
+        padding: 0.813rem 0 0.813rem 1.5rem;
+        border: 1px solid rgba(255, 255, 255, 0.8);
+        display: block;
+        width: 100%;
+        background: #52b962;
+        &::placeholder{
+            color: #fff;
+            font-weight: 400;
+            font-family: "Allerta", sans-serif;
+        }
+    }
+    &__button{
+        position: relative;
+
+    }
+    &__down{
+        position: absolute;
+        right: 1rem;
+        top: 1rem;
+        color: #fff;
+    }
+    &__form, 
+    &__control{
+        display: flex;
+        flex-direction: column;
+        row-gap: 1rem;
+    }
+    &__buttons{
+        background: #fff;
+        color: $primary29;
+        font-size: clamp(0.875rem, 0.8421052632rem + 0.1644736842vw, 1rem);
+        display: block;
+        padding: 0.904rem;
+        border-radius: 4px;
+        font-weight: 600;
+        font-family: "Allerta", sans-serif;
+        font-size: 18px;
+    }
+    &__title{
+        margin-bottom: 1rem;
+    }
+    &__icons{
+        img{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            &:nth-child(2){
+                width: 25px;
+                height: 24px;
+            }
+        }
+    }
+
+    @media screen and (min-width: 460px) {
+        &__control{
+            flex-direction: row;
+            column-gap: 1rem;
+        }
+        &__title{
+            br{
+                display: block;
+            }
+        }
+    }
+    @media screen and (min-width: 768px) {
+        padding-block: 5rem 5rem;
+        &__data{
+            margin-bottom: 0;
+        }
+    
+        &__advise{
+            display: flex;
+            column-gap: 2rem;
+            align-items: center;
+            justify-content: center;
+        }
+        &__data, &__form{
+            width: 352px;
+        }
+    }
+    
+    @media screen and (min-width: 1024px) {
+        &__data, 
+        &__form {
+            width: 474px;
+        }
+        &__title{
+            margin-bottom: 1rem;
+            text-align: initial;
+        }
+    }
+    @media screen and (min-width: 1150px) {
+        padding-block: 5.7rem 5.5rem;
+        &__data, &__form {
+            width: 570px;
+        }
+        &__icons{
+            padding: 0.97rem 0.82rem;
+        }
+        &__input {
+            padding: 0.914rem 0 0.914rem 1.45rem;
+            letter-spacing: -0.5px;
+        }
+        &__control {
+            flex-direction: row;
+            -moz-column-gap: 1rem;
+            column-gap: 0.8rem;
+        }
+        &__down{
+            font-size: 30px;
+            right: 1.3rem;
+            top: 0.3rem;
+        }
+        &__buttons {
+            height: 60px;
+        }
+        &__title {
+            margin-top: 11px;
+            line-height: 1.3;
+        }
+        &__icons {
+            padding: 0.97rem 0.7rem;
+            width: 50px;
+            height: 50px;
+            
+        }
+        &__desc {
+            transform: translateY(-4px);
+            letter-spacing: -0.5px;
+        }
+        &__main {
+            column-gap: 1rem;
+        }
+        &__description {
+            transform: translateY(-8px);
+        }
+        &__compete{
+            letter-spacing: -0.2px;
+            transform: translateY(-5px);
+        }
+    }
+         
+    
+}

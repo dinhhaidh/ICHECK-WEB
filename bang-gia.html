@@ -1,0 +1,1112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ICHECK-WEB</title>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+    
+    <!--=============== fonts ===============-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Allerta&family=Lexend:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./scss/main.css">
+
+    <!--=============== Jquery ===============-->
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    <link rel="stylesheet" href="https://code.jquery.com/ui/1.13.3/themes/base/jquery-ui.css">
+    
+</head>
+<body>
+    <!--=============== HEADER ===============-->
+    <header>
+        <div class="header header__brick" id="header">
+            <nav class="nav container">
+                <a href="#" class="nav__logo">
+                    <img src="./img/Isolation_Mode.svg" alt="" class="nav-logo">
+                </a>
+
+                <!-- =========== NAV MENU   ============= -->
+                <div class="nav__menu" id="nav-menu">
+                    <ul class="nav__list">
+                        <li class="nav__item"><a href="index.html" class="nav__link">Trang chủ</a></li>
+
+                        <li class="nav__item"><a href="bang-gia.html" class="nav__link">Bảng giá</a></li>
+
+                        <!-- ========= DROPDOWN 1 ========== -->
+                        <li class="dropdown__item ">
+                            <!-- <a href="giai-phap.html" class="nav__link"> -->
+                            <a href="" class="nav__link">
+                                Giải pháp ngành<i class="ri-arrow-down-s-line dropdown__arrow"></i>
+                                
+                            </a>
+
+                            <ul class="dropdown__menu">
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        </i> Ngành Dược phẩm
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật tư nông nghiệp
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị điện
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Thiết bị gia dụng
+                                    </a>
+                                </li>
+
+                                <li>
+                                    <a href="#" class="dropdown__link">
+                                        Ngành Vật liệu xây dựng
+                                    </a>
+                                </li>
+
+                            </ul>
+                        </li>
+
+                        <li class="nav__item"><a href="tin-tuc.html" class="nav__link ">Tin tức</a></li>
+
+                        <li class="nav__item"><a href="ho-tro.html" class="nav__link">Hỗ trợ</a></li>
+
+                        <li class="nav__item"><a href="lien-he.html" class="nav__link">Liên hệ</a></li>
+
+                    </ul>
+
+                    <div class="nav__close" id="nav-close">
+                        <i class="ri-close-line"></i>
+                    </div>
+                </div>
+                <div class="nav__login">
+                    <div class="nav__actions">
+                        <img src="./img/VN.svg" alt="image" class="nav__img">
+                            VIE
+                        <i class="ri-arrow-down-s-fill  dropdown__arrow"></i>
+                    </div>
+                    <div class="nav__toggle" id="nav-toggle">
+                        <i class="ri-menu-3-line nav__burge"></i>
+                    </div>
+
+                    <button class="nav__button button">
+                        ĐĂNG KÝ DÙNG THỬ
+                    </button>
+                        
+                </div>
+
+            </nav>
+        </div>
+
+       
+        
+        <div class="header__bg"></div>
+       
+    </header>
+    
+    <main class="main">
+
+        <div class="contact__icons container support__icon">
+            <img src="./img/home.svg" alt="">
+            <i class="ri-arrow-right-s-line contact-icon"></i>
+
+            <span class="contact__descs">Bảng giá</span>
+        </div>
+
+           <!-- ============ price list ============ -->
+        <section class="price section">
+            <div class="price__container container">
+                <h1 class="price__title">Bảng <span class="price__right">giá</span></h1>
+                <div class="price__expense">
+                    <p class="price__description">
+                        Chi phí cơ bản chỉ từ 
+                    </p>
+                    <span class="price__month">299.000VNĐ/Tháng</span>
+                </div>
+
+                <div id="tabs">
+                    <ul class="price__list">
+                      <li class="price__list-months"><a href="#tabs-1" class="price__months"><span class="price__span">6 Tháng</span></a></li>
+                      <li class="price__list-months"><a href="#tabs-2" class=" price__one"><div class="price__year">1 Năm</div></a></li>
+                    </ul>
+                    <div id="tabs-1">
+                        <div class="price__data grid">
+                            <div class="price__content">
+                                <div class="price__card">
+                                    <p class="price__des price__green">
+                                        BASIC 1
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Quản lý sales
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                299.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="price__comment">
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Chấm công có đi kèm vị trí</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giao việc, quản lý công việc</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý khách hàng</p>
+                                    </div>
+                            
+                                </div>
+                            </div>
+                                
+                            <div class="price__content price__revenue">
+                                <div class="price__card">
+
+                                    <p class="price__des price__primary">
+                                        BASIC 2
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Quản lý doanh thu, kho, lên đơn hàng
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                299.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="price__comment price__order">
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Báo cáo doanh số, chỉ tiêu bán hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Xử lý và quản lý đơn đặt hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý xuất nhập tồn kho</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý kiểm kê hàng hoá</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Đặt đơn hàng bằng di động</p>
+                                    </div>
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý danh sách đa kho</p>
+                                    </div>
+                            
+                                </div>
+                            </div>
+
+                            <div class="price__content price__article">
+                                <div class="price__card">
+                                    <p class="price__des price__dash">
+                                        PROFESSIONAL
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Phổ biến
+                                        </p>
+
+                                        <div class="price__month-every ">
+                                            <h4>
+                                                499.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- <div class="price__load-more"> -->
+                                    <div class="price__comment price__comment-cart">
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Chấm công có đi kèm vị trí</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giao việc, quản lý công việc</p>
+                                        </div>
+
+                                        <div class="moreParagraphs price__moreParagraphs">
+    
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p  class="mb-1">Quản lý khách hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p  class="mb-1">Quản lý danh mục sản phẩm</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Báo cáo doanh số, chỉ tiêu bán hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Xử lý và quản lý đơn đặt hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý xuất nhập tồn kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý kiểm kê hàng hoá</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Đặt đơn hàng bằng di động</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý danh sách đa kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý công nợ, tồn kho, tồn ngoài thị trường</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Thiết lập, theo dõi KPIs</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Theo dõi độ phủ, thị phần</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="overlay"></div>
+                                <!-- </div> -->
+
+                                <div class="more">
+                                    <button id="loadMore" class="price__green price__loadmore">
+                                       Xem thêm <i class="ri-arrow-down-s-line"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="price__content price__article">
+                                <div class="price__card">
+                                    <p class="price__des price__violet">
+                                        ENTERPRISE
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Tất cả trong một
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                699.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- <div class="price__load-more "> -->
+                                    <div class="price__comment price__comment-carts">
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Chấm công có đi kèm vị trí</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giao việc, quản lý công việc</p>
+                                        </div>
+
+
+                                        <div class="more-Paragraphs">
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý khách hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý danh mục sản phẩm</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Báo cáo doanh số, chỉ tiêu bán hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý xuất nhập tồn kho bằng mã Qr Code</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý kiểm kê hàng hoá</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý danh sách đa kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý công nợ, tồn kho, tồn ngoài thị trường</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Thiết lập, theo dõi KPIs</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Theo dõi độ phủ, thị phần</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý hàng hóa bằng Qr Code</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Xử lý và quản lý đơn đặt hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý phân phối và đường đi sản phẩm đến nhiều cấp</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Tích hợp Chống giả, Bảo hành điện tử, Quản lý phân phối và triển khai chương trình tính thưởng trên 1 mã QR.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="overlay"></div>
+                                <!-- </div> -->
+
+                                <div class="more">
+                                    <button id="load-More" class="price__green price-loadmore">
+                                        Xem thêm <i class="ri-arrow-down-s-line"></i>
+                                     </button>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+                    <div id="tabs-2">
+                        <div class="price__data grid">
+                            <div class="price__content">
+                                <div class="price__card">
+                                    <p class="price__des price__green">
+                                        BASIC 1
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Quản lý sales
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                299.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="price__comment">
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Chấm công có đi kèm vị trí</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giao việc, quản lý công việc</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý khách hàng</p>
+                                    </div>
+                            
+                                </div>
+                            </div>
+                                
+                            <div class="price__content">
+                                <div class="price__card">
+
+                                    <p class="price__des price__primary">
+                                        BASIC 2
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Quản lý doanh thu, kho, lên đơn hàng
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                299.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <div class="price__comment">
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                         <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Chấm công có đi kèm vị trí</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Giao việc, quản lý công việc</p>
+                                    </div>
+    
+                                    <div class="price__manage">
+                                        <img src="./img/Checkbox.svg" alt="">
+    
+                                        <p>Quản lý khách hàng</p>
+                                    </div>
+                            
+                                </div>
+                            </div>
+
+
+                            <div class="price__content price__article">
+                                <div class="price__card">
+                                    <p class="price__des price__dash">
+                                        PROFESSIONAL
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Phổ biến
+                                        </p>
+
+                                        <div class="price__month-every ">
+                                            <h4>
+                                                499.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- <div class="price__load-more"> -->
+                                    <div class="price__comment price__comment-cart">
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Chấm công có đi kèm vị trí</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giao việc, quản lý công việc</p>
+                                        </div>
+
+                                        <div class="moreParagraphs price__moreParagraphs">
+    
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý khách hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý danh mục sản phẩm</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Báo cáo doanh số, chỉ tiêu bán hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Xử lý và quản lý đơn đặt hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý xuất nhập tồn kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý kiểm kê hàng hoá</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Đặt đơn hàng bằng di động</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý danh sách đa kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý công nợ, tồn kho, tồn ngoài thị trường</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p class="mb-1">Thiết lập, theo dõi KPIs</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Theo dõi độ phủ, thị phần</p>
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                    <div class="overlay"></div>
+                                <!-- </div> -->
+
+                                <div class="more">
+                                    <button id="loadMore" class="price__green price__load-more">
+                                       Xem thêm <i class="ri-arrow-down-s-line"></i>
+                                    </button>
+                                </div>
+                            </div>
+
+                            <div class="price__content price__articles">
+                                <div class="price__card">
+                                    <p class="price__des price__violet">
+                                        ENTERPRISE
+                                    </p>
+                                    <div class="price__card-content">
+                                        <p class="price__descs">
+                                            Tất cả trong một
+                                        </p>
+
+                                        <div class="price__month-every">
+                                            <h4>
+                                                699.000VNĐ
+                                            </h4>
+                                            <span class="price__every">
+                                                Mỗi 6 tháng
+                                            </span>
+
+                                            <button class="button price__button">ĐĂNG KÝ NGAY</button>
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                                <!-- <div class="price__load-more "> -->
+                                    <div class="price__comment price__comment-carts">
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Quản lý, giám sát vị trí của nhân viên bán hàng</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giám sát nhật trình, lộ trình, tuyến bán hàng trên bản đồ số</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Báo cáo viếng thăm, lộ trình di chuyển</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Chấm công có đi kèm vị trí</p>
+                                        </div>
+                                        <div class="price__manage">
+                                            <img src="./img/Checkbox.svg" alt="">
+                                            <p>Giao việc, quản lý công việc</p>
+                                        </div>
+
+
+                                        <div class="more-Paragraphs">
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý khách hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý danh mục sản phẩm</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Báo cáo doanh số, chỉ tiêu bán hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý xuất nhập tồn kho bằng mã Qr Code</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý kiểm kê hàng hoá</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý danh sách đa kho</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý công nợ, tồn kho, tồn ngoài thị trường</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Thiết lập, theo dõi KPIs</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Theo dõi độ phủ, thị phần</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý chương trình khuyến mại, quản lý trưng bày</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý hàng hóa bằng Qr Code</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Xử lý và quản lý đơn đặt hàng</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Quản lý phân phối và đường đi sản phẩm đến nhiều cấp</p>
+                                            </div>
+                                            <div class="price__manage">
+                                                <img src="./img/Checkbox.svg" alt="">
+                                                <p>Tích hợp Chống giả, Bảo hành điện tử, Quản lý phân phối và triển khai chương trình tính thưởng trên 1 mã QR.</p>
+                                            </div>
+                                        </div>
+                                    </div>
+
+                                    <div class="overlay"></div>
+                                <!-- </div> -->
+
+                                <div class="more">
+                                    <button id="load-More" class="price__green price__loadmore">
+                                        Xem thêm <i class="ri-arrow-down-s-line"></i>
+                                     </button>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                  </div>
+            </div>
+            <div class="price__bg">
+            </div>
+        </section>
+
+           <!-- ============ excellent ============ -->
+         <section class="excellent section">
+            <div class="excellent__container excellent-container container">
+               
+
+                <div class="excellent__advise">
+                    <div class="excellent__data">
+                        <h2 class="home__title excellent__title">
+                            Ưu Đãi Đặc Biệt Khi <br>
+                            Hợp Tác Với iCheck
+                        </h2>
+                        <div class="excellent__main">
+                            <div class="excellent__icons">
+                                <img src="./img/excellent-1.svg" alt="">
+                            </div>
+    
+                            <div class="excellent__content">
+                                <h5 class="excellent__desc">
+                                    Miễn phí thiết kế tem theo yêu cầu
+                                </h5>
+                                <p class="excellent__description">
+                                    Tư vấn - thiết kế tem miễn phí cho doanh nghiệp
+                                </p>
+                            </div>
+                        </div>
+    
+                        <div class="excellent__main">
+                            <div class="excellent__icons">
+                                <img src="./img/dola.svg" alt="">
+                            </div>
+                            <div class="excellent__content">
+                                <h5 class="excellent__desc">
+                                    Chi phí cạnh tranh
+                                </h5>
+                                <p class="excellent__description">
+                                    Nhiều gói dịch vụ phù hợp với nhu cầu của doanh nghiệp
+                                </p>
+                            </div>
+    
+                        </div>
+                    </div>
+                    <form action="" class="excellent__form">
+                        <input type="text" class="excellent__input" placeholder="Họ và tên">
+                        <button class="excellent__button">
+                            <input type="text" class="excellent__input" placeholder="Chức danh">
+                            <i class="ri-arrow-down-s-fill excellent__down"></i>
+                        </button>
+                        <div class="excellent__control">
+                            <input type="email" class="excellent__input" placeholder="Email">
+                            <input type="email" class="excellent__input" placeholder="Số điện thoại">
+                        </div>
+    
+                        <input type="text" class="excellent__input" placeholder="Công ty">
+                        <button class="excellent__button">
+                            <input type="text" class="excellent__input" placeholder="Gói dịch vụ">
+                            <i class="ri-arrow-down-s-fill excellent__down"></i>
+                        </button>
+                        <button class="excellent__buttons">ĐĂNG KÝ NGAY</button>
+                    </form>
+                </div>
+
+            </div>
+         </section>
+
+
+    </main>
+
+    <footer class="footer section">
+        <div class="footer__container container">
+            <div class="footer__content">
+                <div class="footer__logo">
+                    <img src="./img/footer-logo.png" alt="image">
+                </div>
+                <div class="footer__actions">
+                    <div class="footer__connect">
+                        <p class="footer__desc">
+                            Kết nối với chúng tôi
+                        </p>
+
+                        <div class="footer__social">
+                            <a href="https://www.facebook.com" class="footer__social-link">
+                                <img src="./img/facebook.svg" alt="">
+                            </a>
+                            <a href="https://www.play.com" class="footer__social-link">
+                                <img src="./img/play_circle_filled.svg" alt="">
+                            </a>
+                            <a href="https://www.linkedin.com" class="footer__social-link">
+                                <img src="./img/in.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer__application">
+                        <p class="footer__desc">
+                            Tải ứng dụng DMS+
+                        </p>
+                        <div class="footer__app">
+                            <a href="https://www.Appstore.com" class="footer__appstore">
+                                <img src="./img/Appstore.svg" alt="">
+                            </a>
+                            <a href="https://play.Google.com" class="footer__google">
+                                <img src="./img/Google play.svg" alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__data grid">
+                <div>
+                    <h3 class="footer__title">CÔNG TY</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Về chúng tôi</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Văn hóa công ty</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Báo chí nói về iCheck</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Liên hệ</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Tuyển dụng</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div>
+                    <h3 class="footer__title">GIẢI PHÁP NGÀNH</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Ngành Dược phẩm</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Vật tư nông nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Ngành Thiết bị điện</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Ngành Thiết bị gia dụng</a>
+                        </li>
+                        <li class=" footer__appliances">
+                            <a href="#" class="footer__link">Ngành Vật liệu xây dựng</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">DỊCH VỤ</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ tư vấn Doanh nghiệp</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Dịch vụ in tem nhãn</a>
+                        </li>
+                    </ul>
+                </div>
+                
+                <div>
+                    <h3 class="footer__title">LIÊN KẾT</h3>
+                    <ul class="footer__links">
+                        <li>
+                            <a href="#" class="footer__link">Chính sách chung</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách cung cấp dịch vụ</a>
+                        </li>
+                        <li>
+                            <a href="#" class="footer__link">Chính sách bảo mật thông tin</a>
+                        </li>
+                        <li class="footer__device">
+                            <a href="#" class="footer__link">Chính sách đại lý</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+            <div class="footer__copyright footer-copyright">
+                <div class="footer__copy">
+                    Copyright © 2022 icheck.com.vn <br>
+                    Hệ sinh thái ứng dụng Barcode & QR Code
+                </div>
+
+                <div class="footer__action">
+                    <img src="./img/registered.svg" alt="" class="footer__register">
+                    <img src="./img/DMCA.svg" alt="" class="footer__DMCA">
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <a href="#" class="scrollup show-scroll" id="scroll-up">
+        <i class="ri-arrow-up-s-line"></i>
+    </a>
+
+    <!-- ================ Swiper ==================== -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- ================ scrollreveal ==================== -->
+    <script src="./js/scrollreveal.min.js"></script>
+
+    <!-- ================ jquery ==================== -->
+    <script src="https://code.jquery.com/jquery-3.7.1.js"></script>
+    <script src="https://code.jquery.com/ui/1.13.3/jquery-ui.js"></script>
+    <!--=============== MAIN JS ===============-->
+    <script src="./js/main.js"></script>
+    <script>
+        $( function() {
+          $( "#tabs" ).tabs();
+        } );
+    </script>
+</body>
+</html>
